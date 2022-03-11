@@ -1,14 +1,17 @@
-## Get All Users (GET)
+## Get All Users (GET):
+   > http://localhost:8000/api/auth/users
+   > Register (POST)
+   > {"name":"Shruti", "email":"patelshruti2312@gmail.com", "password":"12345678","role":"User"}
+   
+## Register (POST):
+   > http://localhost:8000/api/auth/register
+   > {"name":"Joe", "email":"joe@gmail.com", "password":"12345678", "role":"Admin"}
+   
+## Login (POST): 
+   > http://localhost:8000/api/auth/login
+   > (Body) => {"email":"joe@gmail.com", "password":"12345678"}
+   > (response) => {"auth": true,"token": "token"}      
 
-## Register (POST)
-
-### {"name":"Shruti", "email":"patelshruti2312@gmail.com", "password":"12345678","role":"User"}
-
-## Login (POST) 
-
-### (Body) => {"email":"patelshrutesh27@gmail.com", "password":"1234568"}
-### (response) => {"auth": true,"token": "token"}      
-
-## UserInfo (GET) 
-
-### (Header) => {'x-access-token':'token from login'}
+## UserInfo (GET): 
+   > http://localhost:8000/api/auth/userinfo
+   > (Header) => {'x-access-token':'token from login'}
