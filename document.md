@@ -1,7 +1,5 @@
 ## Get All Users (GET):
     > http://localhost:8000/api/auth/users
-    > Register (POST)
-    > {"name":"Shruti", "email":"patelshruti2312@gmail.com", "password":"12345678","role":"User"}
    
 ## Register (POST):
     > http://localhost:8000/api/auth/register
