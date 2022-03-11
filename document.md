@@ -1,12 +1,12 @@
-# Get All Users (GET)
+## Get All Users (GET)
 
-# Register (POST)
+## Register (POST)
 
-## {"name":"Shruti", "email":"patelshruti2312@gmail.com", "password":"12345678","role":"User"}
+### {"name":"Shruti", "email":"patelshruti2312@gmail.com", "password":"12345678","role":"User"}
 
-# Login (POST) 
+## Login (POST) 
 
-## (Body) => {"email":"patelshrutesh27@gmail.com", "password":"1234568"}
-## (response) => {"auth": true,"token": "token"}      
+### (Body) => {"email":"patelshrutesh27@gmail.com", "password":"1234568"}
+### (response) => {"auth": true,"token": "token"}      
 
-# UserInfo (GET) (Header) => {'x-access-token':'token from login'}
+## UserInfo (GET) (Header) => {'x-access-token':'token from login'}
